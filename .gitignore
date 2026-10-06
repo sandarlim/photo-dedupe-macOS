@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Downloaded tools (scan_similar.sh fetches Czkawka here)
+tools/
+
+# Reports and lists (normally written to the Desktop / Downloads, just in case)
+exact_dupes.txt
+similar_photos.txt
+to_move.txt
+similar_review.html
+instructions.txt
+
+# Editor
+.vscode/*
+!.vscode/settings.json
